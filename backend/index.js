@@ -9,7 +9,7 @@ const cors = require('cors');
 const app = express();
 
 const PORT = 5555;
-const MONGO_URI = 'mongodb+srv://mernapp:raahim123@cluster0.8yeov.mongodb.net/myDatabase?retryWrites=true&w=majority&appName=Cluster0'
+const MONGO_URI = 'connection string'
 app.use(express.json());
 app.use(cors({
   origin: 'http://localhost:5173', // Frontend URL (React dev server)
